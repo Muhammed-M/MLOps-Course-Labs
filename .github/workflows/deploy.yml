@@ -78,7 +78,7 @@ jobs:
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
 
   # ─────────────────────────────────────────
-  # STAGE 3: DEPLOY TO EC2
+  # STAGE 3: DEPLOY TO EC2 
   # ─────────────────────────────────────────
   deploy:
     name: 🚀 Deploy to EC2
