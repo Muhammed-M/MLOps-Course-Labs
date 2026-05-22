@@ -23,7 +23,7 @@ def predict_churn(features: list[float]) -> int:
     #         Hint: model.predict() expects a 2D array
 
     df = pd.DataFrame([features], columns=FEATURE_NAMES)
-    prediction = model.predict(df.values)
+    prediction = model.predict(df)
     return int(prediction[0])
 
 
