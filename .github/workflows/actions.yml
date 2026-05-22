@@ -1,4 +1,4 @@
-name: Churn Model CI
+name: Churn Model CI testing
 
 on:
   push:

@@ -1,4 +1,4 @@
-name: Churn Model CD Pipeline
+name: Churn Model CD Pipeline testing,build,deploy
 
 on:
   push:
