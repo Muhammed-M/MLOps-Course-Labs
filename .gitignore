@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 cicd-demo.pem
+Project_structure.md
+Lab 5 - Monitoring - Rubric.md
 # Distribution / packaging
 .Python
 build/
